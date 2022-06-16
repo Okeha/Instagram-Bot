@@ -24,7 +24,7 @@ cronJob.schedule("* * * * *", () => {
   generateImage.ImageGenerate;
   console.log("Auto generated image");
 });
-cronJob.schedule("0-59/2 * * * *", async () => {
+cronJob.schedule("0-59/29 18 * * *", async () => {
   const instagramPostFunction = async () => {
     generateImage.ImageGenerate;
     await client
