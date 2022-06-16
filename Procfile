@@ -1,1 +1,1 @@
-web: npm run start
+web: node index.js && node generateImage.js
